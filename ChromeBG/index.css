@@ -1,0 +1,65 @@
+body {
+  background-color: rgba(24, 88, 67, 0.815);
+}
+body {
+  background-color: rgba(4, 0, 54, 0.842);
+  color: bisque;
+}
+
+.clicked {
+  color: orange;
+  transition: color 0.5s ease-in-out;
+}
+
+ul{
+  list-style-type :none;
+  padding : 0;
+  margin : 5;
+}
+
+li{
+  margin-top: 5px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: contents;
+  color: azure;
+}
+
+.js-clock{
+  font-family: 'Dela Gothic One', cursive;
+  color:rgba(166, 185, 245, 0.842);
+  opacity:100;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+  }
+
+
+  }
+}
