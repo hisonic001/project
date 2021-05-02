@@ -40,5 +40,15 @@ array=[5,7,9,0,3,1,6,2,4,8]
 #         for j in range(count[i]):
 #             print(i, end=' ')
 # quick_sort(array)
-array.sort()
-print(array)
+
+n,k = 5,3
+a = [1,2,5,4,3]
+b = [5,5,6,6,5]
+
+a=sorted(a)
+b=sorted(b,reverse=True)
+for i in range(k):
+    if a[i]<b[i]:
+        a[i], b[i] = b[i], a[i]
+    else:break
+print(sum(a))
