@@ -1,11 +1,11 @@
 a = 5
-b = 24
+b =    24
 
 
-def solution(a, b):
-    answer = ""
+def   solution(a, b):
+    answer      = ""
     days = 0
-    day = ["THU", "FRI", "SAT", "SUN", "MON", "TUE", "WED"]
+    day =   ["THU", "FRI", "SAT", "SUN", "MON", "TUE", "WED"]
     dates = {
         1: 31,
         2: 29,

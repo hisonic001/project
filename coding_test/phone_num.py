@@ -13,7 +13,7 @@ array.sort()
 print(array)
 
 for i in range(len(array)-1):
-    if array[i] == array[i+1][:len(array[i])]
+    if array[i] == array[i+1][:len(array[i])]:
         return False
         break
     return True
