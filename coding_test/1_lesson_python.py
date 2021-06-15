@@ -98,3 +98,34 @@ from dataclasses import dataclass #dataclass(구조체)
 # ->float
 # print(type(10//7))
 # ->int
+
+
+# print함수 활용
+# print("a","b","c", sep="$") #sep 표시로 구분 result = a$b$c
+
+# print("a","b",end=" ") #자동으로 줄바꿈을 없애줌
+# print("c")
+
+# print(" ".join(['join','with','function'])) #"".join으로 리스트 합쳐주기 (str) 가능
+
+# idx=1
+# fruit='apple'
+# print('{0}:{1}'.format(idx+1,fruit)) #인덱스와 함께 사용가능
+# print('{}:{}'.format(idx+1,fruit)) #인덱스 생략
+# print(f'{idx+1}:{fruit}') #f_string 방식
+
+
+#Pass 기능 
+# class Myclass(object):
+#     def method_a(self):
+#         pass        # ->우선적으로 기능을 패스 한 후 추후 구현가능
+#     def methon_b(self):
+#         print("Method B")
+
+# c=Myclass()
+# print(c.methon_b())
+
+
+#locals() 로컬에 선언된 모든 변수를 조회/클래스 메소드 내의 모든 변수. 디버깅에 활용. pprint를 사용하면 줄바꿈을 자동으로 해줘서 가독성이 좋다.
+# import pprint
+# pprint.pprint(locals())
